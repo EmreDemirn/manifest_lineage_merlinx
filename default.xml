@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- remote list -->
+    <remote
+        name="sunfish"
+        fetch="https://github.com/team-sunfish"
+        revision="lineage-21"
+    />
+    <remote name="lineage"
+        fetch="https://github.com/LineageOS"
+        revision="lineage-21"
+    />
+
+    <!-- merlinx -->
+    <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="sunfish"
+        revision="lineage-21" 
+    />
+    <project path="vendor/xiaomi/merlinx" name="vendor_xiaomi_merlinx" remote="sunfish"
+        revision="lineage-21" 
+    />
+
+    <!-- commons -->
+    <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="sunfish"
+        revision="lineage-21" 
+    />
+    <project path="vendor/xiaomi/mt6768-common" name="vendor_xiaomi_mt6768-common" remote="sunfish"
+        revision="lineage-21" 
+    />
+
+    <!-- kernel source -->
+    <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="sunfish"
+        revision="lineage-21" 
+    />
+
+    <!-- hardware -->
+    <project path="hardware/mediatek" name="hardware_mediatek" remote="sunfish"
+        revision="lineage-21" 
+    />
+    <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage"
+        revision="lineage-21" 
+    />
+</manifest>
