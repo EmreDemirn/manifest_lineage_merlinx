@@ -39,10 +39,4 @@
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage"
         revision="lineage-21" 
     />
-    
-    <!-- This branch is intended to be used with LineageOS, so remove the let's comment compat
-    <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage"
-        revision="lineage-21.0" 
-    -->
-    />
 </manifest>
