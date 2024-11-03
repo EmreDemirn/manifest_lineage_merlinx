@@ -34,7 +34,7 @@
 
     <!-- kernel source -->
     <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="sunfish"
-        revision="lineage-21" 
+        revision="lineage-21-fixes-openela-bpf" 
     />
 
     <!-- hardware -->
