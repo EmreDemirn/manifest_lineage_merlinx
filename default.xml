@@ -6,7 +6,7 @@
         fetch="https://github.com/team-sunfish"
         revision="lineage-21"
     />
-    <remote name="lineage"
+    <remote name="lineage-os"
         fetch="https://github.com/LineageOS"
         revision="lineage-21"
     />
