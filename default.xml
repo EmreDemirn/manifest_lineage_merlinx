@@ -19,6 +19,11 @@
         revision="lineage-21" 
     />
 
+    <!-- device -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage"
+        revision="lineage-21"
+    />
+
     <!-- commons -->
     <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="sunfish"
         revision="lineage-21" 
