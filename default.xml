@@ -44,8 +44,9 @@
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos"
         revision="lineage-21" 
     />
-    <!-- packages -->
+    <!-- packages : We only need it when not building LineageOS 
     <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineageos"
         revision="lineage-21"
     />
+    -->
 </manifest>
