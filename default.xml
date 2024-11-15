@@ -26,7 +26,7 @@
 
     <!-- commons -->
     <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="sunfish"
-        revision="lineage-21" 
+        revision="lineage-21-erofs" 
     />
     <project path="vendor/xiaomi/mt6768-common" name="vendor_xiaomi_mt6768-common" remote="sunfish"
         revision="lineage-21" 
@@ -34,7 +34,7 @@
 
     <!-- kernel source -->
     <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="sunfish"
-        revision="lineage-21-fixes-openela-bpf" 
+        revision="sunshine-staging" 
     />
 
     <!-- hardware -->
