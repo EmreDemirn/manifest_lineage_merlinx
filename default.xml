@@ -13,7 +13,7 @@
     <remote name="aospa"
         fetch="https://github.com/AOSPA"
         revision="uvite"
-
+    />
     <!-- merlinx -->
     <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="sunfish"
         revision="lineage-21" 
