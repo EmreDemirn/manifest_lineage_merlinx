@@ -4,24 +4,20 @@
     <remote
         name="sunfish"
         fetch="https://github.com/team-sunfish"
-        revision="lineage-21"
+        revision="lineage-22.0"
     />
     <remote name="lineageos"
         fetch="https://github.com/LineageOS"
-        revision="lineage-21"
+        revision="lineage-22.0"
     />
     <remote name="aospa"
         fetch="https://github.com/AOSPA"
-        revision="uvite"
+        revision="vauxite"
     />
     
     <!-- merlinx -->
-    <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="sunfish"
-        revision="lineage-21" 
-    />
-    <project path="vendor/xiaomi/merlinx" name="vendor_xiaomi_merlinx" remote="sunfish"
-        revision="lineage-21" 
-    />
+    <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="sunfish"/>
+    <project path="vendor/xiaomi/merlinx" name="vendor_xiaomi_merlinx" remote="sunfish"/>
 
     <!-- device -->
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineageos"
@@ -29,33 +25,19 @@
     />
 
     <!-- commons -->
-    <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="sunfish"
-        revision="lineage-21-erofs" 
-    />
-    <project path="vendor/xiaomi/mt6768-common" name="vendor_xiaomi_mt6768-common" remote="sunfish"
-        revision="lineage-21" 
-    />
+    <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="sunfish"/>
+    <project path="vendor/xiaomi/mt6768-common" name="vendor_xiaomi_mt6768-common" remote="sunfish"/>
 
     <!-- kernel source -->
-    <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="sunfish"
-        revision="sunshine-staging" 
-    />
+    <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="sunfish"/>
 
     <!-- hardware -->
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineageos"
-        revision="lineage-21" 
-    />
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="aospa"
-        revision="uvite" 
-    />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineageos"/>
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="aospa"/>
     <!-- We only need it when not building LineageOS
-    <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="aospa"
-        revision="uvite" 
-    />
+    <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="aospa"/>
     -->
     <!-- packages : We only need it when not building LineageOS 
-    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineageos"
-        revision="lineage-21"
-    />
+    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineageos"/>
     -->
 </manifest>
