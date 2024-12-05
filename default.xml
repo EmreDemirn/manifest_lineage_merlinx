@@ -14,6 +14,12 @@
         fetch="https://github.com/AOSPA"
         revision="vauxite"
     />
+    <remote name="emredemirn"
+        fetch="https://github.com/EmreDemirn"
+        revision="lineage-22.0"
+    />
+
+
     
     <!-- merlinx -->
     <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="sunfish"/>
