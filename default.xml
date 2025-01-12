@@ -8,7 +8,7 @@
     />
     <remote name="lineageos"
         fetch="https://github.com/LineageOS"
-        revision="lineage-22.0"
+        revision="lineage-22.1"
     />
     <remote name="aospa"
         fetch="https://github.com/AOSPA"
