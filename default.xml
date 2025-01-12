@@ -4,7 +4,7 @@
     <remote
         name="sunfish"
         fetch="https://github.com/team-sunfish"
-        revision="lineage-22.0"
+        revision="lineage-22.1"
     />
     <remote name="lineageos"
         fetch="https://github.com/LineageOS"
@@ -16,13 +16,16 @@
     />
     <remote name="emredemirn"
         fetch="https://github.com/EmreDemirn"
-        revision="lineage-22.0"
+        revision="lineage-22.1"
     />
-
+    <remote name="hipexscape"
+        fetch="https://github.com/hipexscape"
+        revision="15"
+    />
 
     
     <!-- merlinx -->
-    <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="sunfish"/>
+    <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="emredemirn"/>
     <project path="vendor/xiaomi/merlinx" name="vendor_xiaomi_merlinx" remote="sunfish"/>
 
     <!-- device -->
@@ -31,8 +34,8 @@
     />
 
     <!-- commons -->
-    <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="sunfish"/>
-    <project path="vendor/xiaomi/mt6768-common" name="vendor_xiaomi_mt6768-common" remote="sunfish"/>
+    <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="hipexscape"/>
+    <project path="vendor/xiaomi/mt6768-common" name="vendor_xiaomi_mt6768-common" remote="hipexscape"/>
 
     <!-- kernel source -->
     <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="sunfish"/>
